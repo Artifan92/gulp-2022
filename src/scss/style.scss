@@ -1,7 +1,6 @@
-/*-------IMPORT-------*/
-@import 'import';
-
-/*-------MAIN-------*/
-
-/*-------ADAPTIVE-------*/
-@import 'adaptive';
+@import 'normalize.scss';
+@import 'fonts.scss';
+@import 'swiper.scss';
+@import '_base.scss';
+@import './blocks/';
+@import '_adaptive.scss';
