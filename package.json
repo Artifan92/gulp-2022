@@ -20,6 +20,9 @@
     "gulp": "latest"
   },
   "devDependencies": {
+    "@babel/core": "latest",
+    "@babel/preset-env": "latest",
+    "babel-loader": "latest",
     "browser-sync": "latest",
     "gulp-autoprefixer": "latest",
     "gulp-clean-css": "latest",
