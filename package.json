@@ -15,8 +15,9 @@
   },
   "author": "Artem Balandin",
   "license": "ISC",
-	"browserslist": [
-    "> 1%"  ],
+  "browserslist": [
+    "> 1%"
+  ],
   "dependencies": {
     "swiper": "latest"
   },

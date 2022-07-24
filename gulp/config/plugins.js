@@ -4,7 +4,7 @@ import notify from 'gulp-notify'; // Сообщения (подсказки)
 import browserSync from 'browser-sync'; // Локальный сервер
 import newer from 'gulp-newer'; // Проверка обновления
 import ifPlugin from 'gulp-if'; // Условное ветвление
-import del from 'del'; // Удаление
+import { deleteAsync } from 'del'; // Удаление
 import fs from 'fs';
 
 const plugins = {
@@ -13,7 +13,7 @@ const plugins = {
 	notify,
 	browserSync,
 	newer,
-	del,
+	deleteAsync,
 	fs,
 	if: ifPlugin,
 };
