@@ -26,7 +26,14 @@ const js = () => {
 							use: {
 								loader: 'babel-loader',
 								options: {
-									presets: ['@babel/preset-env'],
+									presets: [
+										['@babel/preset-env'],
+										{
+											debug: app.isBuild ? false : true,
+											corejs: 3,
+											useBuiltIns: 'usage',
+										},
+									],
 								},
 							},
 						},
